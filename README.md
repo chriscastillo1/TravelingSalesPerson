@@ -2,7 +2,7 @@
 Java implementation of the shortest path algorithm using 3 main approaches: Heuristic, Recursive Backtracking, and Custom approach. Creates a class DGraph to represent a directed graph.
 After each algorithm is implemented, they are timed against each other and compared.
 
-#Timings for HEURISTIC:
+# Timings for HEURISTIC:
 
 1st Run: Cost = 3.39, Time = 1 milliseconds
 
@@ -14,7 +14,7 @@ After each algorithm is implemented, they are timed against each other and compa
 
 5th Run: Cost = 3.39, Time = 1 milliseconds
 
-#Timings for BACKTRACKING:
+# Timings for BACKTRACKING:
 
 1st Run: Cost = 1.35, Time = 96 milliseconds
 
@@ -26,7 +26,7 @@ After each algorithm is implemented, they are timed against each other and compa
 
 5th Run: Cost = 1.35, Time = 94 milliseconds
 
-#Timings for MINE:
+# Timings for MINE:
 
 1st Run: Cost = 1.67, Time = 23 milliseconds
 
@@ -38,8 +38,8 @@ After each algorithm is implemented, they are timed against each other and compa
 
 5th Run: Cost = 1.67, Time = 23 milliseconds
 
-The algorithms have relative performance difference due to how they run through the code.
 
+# Notes on Algorithms
 Heuristic algorithm is currently doing the Nearest-Neighbor approach in which it starts
 from city 1 and chooses the closest city to city one. This means its very fast to run,
 but it does NOT guarantee the most optimal path.
